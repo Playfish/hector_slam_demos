@@ -1,6 +1,6 @@
 ckage>
   <name>hector_slam_demos</name>
-  <version>0.0.1</version>
+  <version>0.0.2</version>
   <description>
     Hector slam demos for 3d sensor and lidar.
   </description>
@@ -15,7 +15,10 @@ ckage>
 
 
   <buildtool_depend>catkin</buildtool_depend>
-  <run_depend>roch_bringup</run_depend>
+  <run_depend>rgbd_launch</run_depend>
+  <run_depend>realsense_camera</run_depend>
+  <run_depend>freenect_launch</run_depend>
+  <run_depend>astra_launch</run_depend>
   <run_depend>depthimage_to_laserscan</run_depend>
   <run_depend>hector_mapping</run_depend>
   <run_depend>hector_geotiff</run_depend>
