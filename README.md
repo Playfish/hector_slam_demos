@@ -10,7 +10,26 @@ $ #checkout depends whether install or not
 $ rosdep install --from-paths src --ignore-src --rosdistro indigo -y 
 $ catkin_make
 ```
-
 After installing dependency package you can run r200_demo.launch, and also at first you have install ```hector_slam``` package.
 
-``` $ roslaunch hector_slam_demos r200_demos.launch ```
+### R200 Demo
+Just use following command for run r200 demo.
+
+``` 
+$ roslaunch hector_slam_demos r200_demo.launch
+```
+
+### Astra Demo
+Just use following command for run astra demo.
+
+``` 
+$ roslaunch hector_slam_demos astra_demo.launch 
+```
+
+
+### Kinect Demo
+Just use following command for run kinect demo.
+
+``` 
+$ roslaunch hector_slam_demos kinect_demo.launch 
+```
