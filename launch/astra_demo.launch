@@ -35,7 +35,7 @@
   <node pkg="rviz" type="rviz" name="rviz" args="-d $(find hector_slam_demos)/rviz/hector_slam_demos.rviz" />
 
 
-  <!-- r200 and depthimage to laserscan -->
+  <!--  astra and depthimage to laserscan -->
   <include file="$(find hector_slam_demos)/launch/includes/astra.launch.xml">
     <arg name="camera"                          value="$(arg camera)"/>
     <arg name="publish_tf"                      value="$(arg publish_tf)"/>

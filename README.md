@@ -33,3 +33,9 @@ Just use following command for run kinect demo.
 ``` 
 $ roslaunch hector_slam_demos kinect_demo.launch 
 ```
+
+### Kinect2 Demo
+Before run this demo, you should install ```libfreenect2``` and ```iai_kinect2```.
+```
+$ roslaunch hector_slam_demos kinect2_demo.launch
+```
